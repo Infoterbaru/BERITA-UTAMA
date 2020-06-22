@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-color: white;
+  background-size: cover;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  color:#B8860B; 
+  opacity: 0.7;
+  font-size: 80px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.Twitter {
+  background-color: #87CEFA;
+}
+
+.yahoo {
+  background-color: #800000;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.instagram {
+  background-color: #DC143C ;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color:#000088;
+  /* Ubah position ke fixed, dan top ke 0 */
+  position: fixed;
+  top: 0;
+  /* Ubah z-index ke 10 */
+  z-index: 10;
+}
+
+.logo {
+  width: 250px;
+  margin-top: 5px;
+}
+
+.header-left {
+  float: left;
+  color: white;
+  font-size:10px;
+  transition: all 0.5s
+}
+
+
+
+.header-right {
+  float: right;
+  background-image: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: #87CEFA;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.lesson-wrapper {
+  height: 330px;
+  padding-bottom: 90px;
+  background-image: url(https://cdn.idntimes.com/content-images/community/2019/05/1470530441-original-bee5aa84c546acbe65071e902d05a674.jpeg);
+  text-align: center;
+}
+
+.heading {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: white;
+
+}
+
+
+
+.heading 
+h2 {color:white;
+background-color:#DAA520;
+  padding: 10px 200px;
+}
+
+
+
+h5{color : #7CFC00;
+background-color: #8B0000;
+padding :5px 8px;
+display: inline-block;
+border-radius: 3px;
+}
+
+
+
+h4 { color: #F0FFF0;
+background-color:#4B0082;
+padding: 5px 8px;
+display: inline-block;
+border-radius: 3px;
+}
+
+h3 {color: f0000;
+  background-color:#AFEEEE;
+  padding: 5px 8px;
+  display: inline-block;
+  opacity: 1.0;
+  border-radius: 3px;
+}
+
+.heading  {
+  font-weight: bold;
+}
+
+
+.message-wrapper {
+ height: 200px;
+  padding-bottom: 50px;
+  background-image: url(https://ae01.alicdn.com/kf/HTB1QCs7IFXXXXXeXFXXq6xXFXXXj/7X5ft-Papan-Kayu-Wallpaper-Anak-Bayi-Fotografi-Latar-Belakang-Vinyl-Latar-Belakang-untuk-Foto-Studio-Galeri.jpg);
+  text-align: center;
+  border: 30px solid white
+
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: 000000;
+  cursor: pointer;
+  box-shadow: 0 0px 000000;
+}
+
+
+
+
+ 
+  
+
+
+footer img {
+  width: 50px;width: 100px;
+  
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration:   10s;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;  
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+footer p {
+  color: #FF4500;
+  font-size: 20px;
+  font-weight: bold
+}
+
+footer {
+  padding-top: 10px;
+}
