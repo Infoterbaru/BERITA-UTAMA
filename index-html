@@ -1,222 +1,130 @@
-body {
-  margin: 0;
-  font-family: "Lucida Grande";
-}
-
-a {
-  text-decoration: none;
-}
-
-.container {
-  width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.top-wrapper {
-  padding: 180px 0 100px 0;
-  background-color: white;
-  background-size: cover;
-  text-align: center;
-}
-
-.top-wrapper h1 {
-  color:#B8860B; 
-  opacity: 0.7;
-  font-size: 80px;
-  letter-spacing: 5px;
-  margin-bottom: 10px;
-}
-
-.top-wrapper p {
-  opacity: 0.7;
-  margin-bottom: 3px;
-}
-
-.btn-wrapper {
-  margin: 20px 0;
-}
-
-.btn-wrapper p {
-  margin: 10px 0;
-}
-
-.Twitter {
-  background-color: #87CEFA;
-}
-
-.yahoo {
-  background-color: #800000;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.instagram {
-  background-color: #DC143C ;
-}
-
-.btn {
-  padding: 12px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
-.fa {
-  margin-right: 5px;
-}
-
-header {
-  height: 65px;
-  width: 100%;
-  background-color:#000088;
-  /* Ubah position ke fixed, dan top ke 0 */
-  position: fixed;
-  top: 0;
-  /* Ubah z-index ke 10 */
-  z-index: 10;
-}
-
-.logo {
-  width: 250px;
-  margin-top: 5px;
-}
-
-.header-left {
-  float: left;
-  color: white;
-  font-size:10px;
-  transition: all 0.5s
-}
-
-
-
-.header-right {
-  float: right;
-  background-image: rgba(255, 255, 255, 0.3);
-  transition: all 0.5s;
-}
-
-.header-right:hover {
-  background-color: #87CEFA;
-}
-
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
-}
-
-.lesson-wrapper {
-  height: 330px;
-  padding-bottom: 90px;
-  background-image: url(https://cdn.idntimes.com/content-images/community/2019/05/1470530441-original-bee5aa84c546acbe65071e902d05a674.jpeg);
-  text-align: center;
-}
-
-.heading {
-  padding-top: 30px;
-  padding-bottom: 20px;
-  color: white;
-
-}
-
-
-
-.heading 
-h2 {color:white;
-background-color:#DAA520;
-  padding: 10px 200px;
-}
-
-
-
-h5{color : #7CFC00;
-background-color: #8B0000;
-padding :5px 8px;
-display: inline-block;
-border-radius: 3px;
-}
-
-
-
-h4 { color: #F0FFF0;
-background-color:#4B0082;
-padding: 5px 8px;
-display: inline-block;
-border-radius: 3px;
-}
-
-h3 {color: f0000;
-  background-color:#AFEEEE;
-  padding: 5px 8px;
-  display: inline-block;
-  opacity: 1.0;
-  border-radius: 3px;
-}
-
-.heading  {
-  font-weight: bold;
-}
-
-
-.message-wrapper {
- height: 200px;
-  padding-bottom: 50px;
-  background-image: url(https://ae01.alicdn.com/kf/HTB1QCs7IFXXXXXeXFXXq6xXFXXXj/7X5ft-Papan-Kayu-Wallpaper-Anak-Bayi-Fotografi-Latar-Belakang-Vinyl-Latar-Belakang-untuk-Foto-Studio-Galeri.jpg);
-  text-align: center;
-  border: 30px solid white
-
-}
-
-.message {
-  padding: 15px 40px;
-  background-color: 000000;
-  cursor: pointer;
-  box-shadow: 0 0px 000000;
-}
-
-
-
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Berita Utama</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+        
+         
+        </div>
+        <div class="header-right">
+          <a href="#" class="search">Search</a>
+        </div>
+      </div>
+    </header>
+    <div class="top-wrapper">
+      <div class="container">
+        <img class="logo" src="https://pbs.twimg.com/profile_images/1291521606/wartabumitwitter.png">
+<h1>BERITA UTAMA</h1>
+<h2>Terbaru dan Teryakini</h2>
+        <div class="btn-wrapper">
+          <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Buka dengan Facebook</a>
+          <p>atau</p>
+  
+          <a href="#" class="btn instagram"><span class="fa fa-instagram"></span>Buka dengan Instagram</a>
+          <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Buka dengan Twitter</a>
+        </div><a href="#" class="btn yahoo"><span class="fa fa-yahoo"></span>Buka dengan Yahoo</a>
+      </div>
+    </div>
+    <div class="lesson-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2> Berita Utama menyediakan banyak berita seputar </h2>
+          
+        </div>
+        <div class="box">
+          
+          <h4>NASIONAL</h4>
+          <h3>INTERNASIONAL</h3>
+          <h5>NOVEL</h5>
+          <h4>PENDIDIKAN</h4>
+          <h3>POLITIK</h3>
+          <h5>ARTIS</h5>
+          <h4>AGAMA</h4>
+          <h3>KESEHATAN</h3>
+          <h5>FASHION</h5>
+          <h4>PERISTIWA</h4>
+          <h3>EKONOMI</h3>
+          <h5>MUSIK</h5>
+          <h4>BISNIS</h4>
+          <h3>TEKNOLOGI</h3>
+          <h5>WISATA</h5>
+          <h4>OLAH RAGA</h4>
+          <h3>HIBURAN</h3>
+          <h5>GOSIP</h5>
+          <h4>GALERI FOTO</h4>
+          <h3>BUDAYA</h3>
+          <h5>MUDIK</h5>
+          <h4>SOSIAL</h4>
+          <h3>PEMERINTAHAN</h3>
+          <h5>KULINER</h5>
+          <h4>LALU LINTAS</h4>
+          <h3>ALAM</h3>
+          <h5>SEJARAH</h5>
+          <h4>FILSAFAT</h4>
+          <h3>OTOMOTIF</h3>
+          <h5>CERPEN</h5>
+          <h4>PASAR</h4>
+          <h3>CUACA</h3>
+          <h5>MODEL</h5>
+          <h4>MAKANAN</h4>
+          <h3>FIKSIANA</h3>
+          <h5>GAYA HIDUP</h5>
+          <h4>FINANSIAL</h4>
+          <h3>KARIR</h3>
+          <h5>PUISI</h5>
+          <h4>FILM</h4>
+          <h3>HUMOR</h3>
+          <h5>MEDIA</h5>
+          <h4>BAHASA</h4>
+          <h3>EDUKASI</h3>
+          <h5>PEMILU</h5>
+          <h4>ATLETIK</h4>
+          <h3>UMROH</h3>
+          <h5>BOLA</h5>
+          <h4>BULU TANGKIS</h4>
+          <h3>E-SPORT</h3>
+          <h5>KEAMANAN</h5>
+          <h4>DIGITAL</h4>
+          <h3>TRANSPORTASI</h3>
+          <h5>LINGKUNGAN</h5>
+          <h4>TRAVEL</h4>
+          <h3>BALAP</h3>
+          
+          
+          
+          
+          
  
-  
-
-
-footer img {
-  width: 50px;width: 100px;
-  
-  background-color: red;
-  position: relative;
-  animation-name: example;
-  animation-duration:   10s;
-  animation-iteration-count: 2;
-  animation-direction: alternate-reverse;  
-}
-
-@keyframes example {
-  0%   {background-color:red; left:0px; top:0px;}
-  25%  {background-color:yellow; left:200px; top:0px;}
-  50%  {background-color:blue; left:200px; top:200px;}
-  75%  {background-color:green; left:0px; top:200px;}
-  100% {background-color:red; left:0px; top:0px;}
-}
-
-footer p {
-  color: #FF4500;
-  font-size: 20px;
-  font-weight: bold
-}
-
-footer {
-  padding-top: 10px;
-}
+            </div>
+            
+        
+           
+            
+          </div>
+        </div>
+     
+    <div class="message-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h1>Apakah Anda ingin memulai membaca ?</h1>
+          
+        </div>
+        <span class="btn message">Mulai Membaca</span>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <img src="https://pbs.twimg.com/profile_images/1291521606/wartabumitwitter.png">
+        <p>BERITA UTAMA HADIR MENEMANI ANDA</p>
+        
+      </div>
+    </footer>
+  </body>
+</html>
